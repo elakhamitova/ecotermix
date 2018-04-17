@@ -1,2 +1,2 @@
-# Elberta_site
-Сайт салона красоты "Elberta"
+# Ecotermix
+Тестовое задание - Лендинг "Ecotermix"
