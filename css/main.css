@@ -1,0 +1,123 @@
+@font-face {
+    font-family: SFUIText-Bold; 
+    src: url(../fonts/SFUIText-Bold.otf);
+}
+@font-face {    
+    font-family: SFUIText-Light; 
+    src: url(../fonts/SFUIText-Light.otf);
+}
+@font-face {        
+    font-family: SFUIText-Regular; 
+    src: url(../fonts/SFUIText-Regular.otf);
+}
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.container-fluid {
+    width: 1140px; 
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+     /* HEADER */
+.header {
+    min-height: 42px;
+    background-color: #edf2f4;
+    font-size: 16px;
+    line-height: 22px;
+    
+}
+.row {
+    min-height: 42px; 
+}
+.header a {
+    color: black;
+    font-family: SFUIText-Regular;
+    font-size: 16px;
+}
+
+/* CONTACTS  */
+.contacts {
+    background-color: white;
+    min-height: 123px;
+}
+
+.contacts_title {
+    font-family: SFUIText-Regular;
+    font-size: 15px;
+}
+
+.contacts button {
+    border-color: #67aa06;
+}
+
+/* CONTENT */
+
+.content {
+    height: 100vh;
+    background: url(../img/background_content.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.content_list {
+    
+}
+.content_list_economic {
+    background: white;
+    padding-top: 10px;
+}
+.content_list_sale {
+    background: white;
+}
+.content_list_fire {
+    background: white; 
+}
+.content_list_ecology {
+    background: white; 
+}
+
+
+.want-button {
+    background: url(../img/button.png) no-repeat;
+    cursor:pointer;
+    padding: 15px 50px;
+    height: auto;
+    color: white;
+    position: relative;
+}
+
+.want-button::after{
+	content: "";
+	background: #b32626;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	z-index: -1;
+}
+
+/* CERTIFICATE */
+
+/* CATEGORY */
+.category {
+    height: 100vh;
+    
+    background: url(../img/background_category.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* PAYMENT */
+
+/* COMPARISON */
+
